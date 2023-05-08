@@ -1,0 +1,52 @@
+<!-- INICIO Barra de Navegacion -->
+<nav class="navbar navbar-expand-lg bg-black">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="../../../assets/logo-argpro.png" alt="Logo Argentina Programa" class="img-fluid w-25 d-inline-block align-text-top">
+        </a>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">
+                <a href="https://github.com/florenciagiudice" role="button" class="btn btn-outline-light btn-sm">
+                    <i class="fa-brands fa-github fa-xl" style="color: #000000;"></i>
+                </a>
+            </li>
+            <li class="list-group-item"> 
+                <a href="https://www.linkedin.com/in/florencia-giudice-292b77272/" role="button" class="btn btn-outline-light btn-sm">
+                    <i class="fa-brands fa-linkedin fa-xl" style="color: #000000;"></i>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <button type="button" class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    <i class="fa-solid fa-user fa-xl" style="color: #000000;"></i>
+                  </button>
+            </li>
+        </ul>
+    </div>
+  </nav>
+  <!-- Modal de Inicio de Sesion-->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Inicio de Sesión</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="cerrar"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Dirección de Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+        <button type="submit" class="btn btn-success">Ingresar</button>
+        </div>
+    </div>
+    </div>
+</div>
+<!-- FIN Barra de Navegacion -->

@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-weight: 900;
+}
+
+h2{
+    font-weight: 700;
+}
+
+h5{
+    font-weight: 500;
+}
+
+p{
+    font-weight: 400;
+}

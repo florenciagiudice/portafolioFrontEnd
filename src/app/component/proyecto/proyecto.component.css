@@ -1,0 +1,12 @@
+.proyectos{
+    padding: 5%;
+    background-color: #e3c035;
+    height: 100%;
+}
+
+.card{
+    height: 100%;
+    background-color: #ecd578;
+    color: black;
+    border: none;
+}
